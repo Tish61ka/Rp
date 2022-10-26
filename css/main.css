@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: 'Cuprum', sans-serif;
+}
+html{
+    scroll-behavior: smooth;   
+    overflow-x: hidden;
+}
+:root{
+    --main-bg-color: #F2C886;
+    --second-bg-color: #FFE8C5;
+    --main-txt-color: #000000;
+    --second-txt-color: #3b3939;
+    --main-border-color: #acacac;
+}
+body{
+  width: 100vw;
+  background-color: var(--main-bg-color);
+}
+/* Open Header */
+
+header{
+  height: 25vh;
+  padding-top: 9vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  margin-bottom: 200px;
+}
+.container-header{
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+  grid-template-rows: repeat(2, 1fr);
+  width: 80vw;
+  background-color: var(--second-bg-color);
+}
+.container-header li{
+  border: 1px solid black;
+  text-align: center;
+  /* padding-top: 1.2vw; */
+  padding: auto 0;
+}
+.icon-header{
+  width: 2.2vw;
+}
+.container-header li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.elem-header-1{
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.logo{
+  width: 9vw;
+}
+.elem-header-8{
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+/* Close Header */
+
+
+/* Open section offer */
+
+.offer ul{
+  display: grid;
+  grid-template-columns: 8vw 32vw 40vw;
+  grid-template-rows: 28vw 12vw;
+  grid-gap: 0;
+  width: 80vw;
+  margin: 0 auto;
+  background-color: var(--second-bg-color);
+}
+.offer li{
+  border: 1px solid black;
+}
+.elem-offer-1{
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.elem-offer-1 h1{
+  width: 36vw;
+  font-size: 3.7vw;
+  margin-top: 4vw;
+  margin-bottom: 3vw;
+}
+.elem-offer-1 p{
+  width: 36vw;
+  font-size: 1.5vw;
+  letter-spacing: 1.2px;
+  line-height: 2;
+}
+.elem-offer-2{
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.elem-offer-2 img{
+  width: 8vw;
+  height: 12vw;
+}
+.elem-offer-3{
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.elem-offer-3 p{
+  font-size: 1.4vw;
+  letter-spacing: 1.2px;
+  line-height: 1.5;
+  width: 20vw;
+}
+.elem-offer-4{
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+.elem-offer-4 img{
+  width: 40vw;
+  height: 40vw
+}
+/*  Close section offer */
