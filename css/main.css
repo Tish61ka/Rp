@@ -29,7 +29,7 @@ header{
   padding-top: 9vh;
   padding-left: 10vw;
   padding-right: 10vw;
-  margin-bottom: 200px;
+  margin-bottom: 5vw;
 }
 .container-header{
   display: grid;
@@ -70,6 +70,9 @@ header{
 
 /* Open section offer */
 
+.offer{
+  margin-bottom: 5vw;
+}
 .offer ul{
   display: grid;
   grid-template-columns: 8vw 32vw 40vw;
@@ -139,3 +142,31 @@ header{
   height: 40vw
 }
 /*  Close section offer */
+
+
+/* Open section scroller */
+
+.content {
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box;
+}
+.slider{
+  width: 100vw;
+  background-color: var(--second-bg-color);
+  height: 6vw;
+  border: 1px solid black;
+}
+h3 {
+  color: #A91A1A;
+  font-size: 3vw;
+  line-height: 100px;
+  position: relative;
+  text-align: center;
+  font-family: "Bulletto Killa¬";
+}
+.slick-track{
+  transition: linear;
+}
+
+/* Close section scroller */
